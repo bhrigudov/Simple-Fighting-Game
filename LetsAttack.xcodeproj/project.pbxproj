@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E91EA92E1CE712AA00C4011F /* bgmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E91EA92D1CE712AA00C4011F /* bgmusic.mp3 */; };
+		E91EA9301CE7282B00C4011F /* punchSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E91EA92F1CE7282B00C4011F /* punchSound.mp3 */; };
 		E9F3C9241CE2934C00CB8C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3C9231CE2934C00CB8C6E /* AppDelegate.swift */; };
 		E9F3C9261CE2934C00CB8C6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3C9251CE2934C00CB8C6E /* ViewController.swift */; };
 		E9F3C9291CE2934C00CB8C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F3C9271CE2934C00CB8C6E /* Main.storyboard */; };
 		E9F3C92B1CE2934C00CB8C6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F3C92A1CE2934C00CB8C6E /* Assets.xcassets */; };
 		E9F3C92E1CE2934C00CB8C6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F3C92C1CE2934C00CB8C6E /* LaunchScreen.storyboard */; };
+		E9F3C9361CE2D64000CB8C6E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3C9351CE2D64000CB8C6E /* Game.swift */; };
+		E9F3C9381CE2D69B00CB8C6E /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3C9371CE2D69B00CB8C6E /* Player.swift */; };
+		E9F3C9401CE2E65600CB8C6E /* Soldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F3C93F1CE2E65600CB8C6E /* Soldier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E91EA92D1CE712AA00C4011F /* bgmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgmusic.mp3; sourceTree = "<group>"; };
+		E91EA92F1CE7282B00C4011F /* punchSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = punchSound.mp3; sourceTree = "<group>"; };
 		E9F3C9201CE2934C00CB8C6E /* LetsAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetsAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9F3C9231CE2934C00CB8C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9F3C9251CE2934C00CB8C6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		E9F3C92A1CE2934C00CB8C6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9F3C92D1CE2934C00CB8C6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9F3C92F1CE2934C00CB8C6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F3C9351CE2D64000CB8C6E /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E9F3C9371CE2D69B00CB8C6E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E9F3C93F1CE2E65600CB8C6E /* Soldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Soldier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +64,13 @@
 		E9F3C9221CE2934C00CB8C6E /* LetsAttack */ = {
 			isa = PBXGroup;
 			children = (
+				E91EA92F1CE7282B00C4011F /* punchSound.mp3 */,
+				E91EA92D1CE712AA00C4011F /* bgmusic.mp3 */,
 				E9F3C9231CE2934C00CB8C6E /* AppDelegate.swift */,
 				E9F3C9251CE2934C00CB8C6E /* ViewController.swift */,
+				E9F3C9351CE2D64000CB8C6E /* Game.swift */,
+				E9F3C9371CE2D69B00CB8C6E /* Player.swift */,
+				E9F3C93F1CE2E65600CB8C6E /* Soldier.swift */,
 				E9F3C9271CE2934C00CB8C6E /* Main.storyboard */,
 				E9F3C92A1CE2934C00CB8C6E /* Assets.xcassets */,
 				E9F3C92C1CE2934C00CB8C6E /* LaunchScreen.storyboard */,
@@ -125,6 +140,8 @@
 				E9F3C92E1CE2934C00CB8C6E /* LaunchScreen.storyboard in Resources */,
 				E9F3C92B1CE2934C00CB8C6E /* Assets.xcassets in Resources */,
 				E9F3C9291CE2934C00CB8C6E /* Main.storyboard in Resources */,
+				E91EA9301CE7282B00C4011F /* punchSound.mp3 in Resources */,
+				E91EA92E1CE712AA00C4011F /* bgmusic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F3C9381CE2D69B00CB8C6E /* Player.swift in Sources */,
+				E9F3C9401CE2E65600CB8C6E /* Soldier.swift in Sources */,
 				E9F3C9261CE2934C00CB8C6E /* ViewController.swift in Sources */,
+				E9F3C9361CE2D64000CB8C6E /* Game.swift in Sources */,
 				E9F3C9241CE2934C00CB8C6E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +304,7 @@
 				E9F3C9341CE2934C00CB8C6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
